@@ -1,0 +1,30 @@
+/* refresh button styling */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+#refresh{
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.1);
+    padding: 13px 0 0 13px;
+}
+
+.refreshicon {
+    fill: #d3d3d3;
+    transform: rotate(0deg);
+    transition: fill .25s ease, transform .25s ease;
+}
+
+.refreshicon:hover {
+  cursor: pointer;
+  fill: #1059FF;
+  transform: rotate(180deg);
+}

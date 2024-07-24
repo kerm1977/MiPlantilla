@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- contenido del head -->
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="Autor" content="Kenneth Ruiz">
+        <meta name="Lenguajes" content="html, css3, js, vue">
+        <meta name="" content="">
+     
+        
+        <link rel=stylesheet type=text/css href="css/main.css">
+        <!-- <link href="webfonts/css/all.css" rel="stylesheet">  -->
+    </head>
+<!-- contenido del head final-->
+
+<body>
+
+<a href="index.html">ir a index</a>
+
+
+<div class="container g-3">
+    <form action="" class="mt-5 ">
+
+<!-- fila de usuario -->
+    <div class="row ">
+        <div class="col-xs-12 col-sm-6 mb-3">
+            <label for="usuario" class="form-label ">Usuario</label>
+            <input type="text" class="form-control" name="usuario" id="usuario">
+        </div>
+                           
+        <div class="col-xs-12 col-sm-6 mb-3">
+            <label for="pass" class="form-label ">Password</label>
+            <input type="password" class="form-control" name="pass" id="pass">
+        </div>
+    </div>
+
+<!-- fila de dirección    -->
+    <div class="row">
+        <div class="col-xs-12 mt-3 form-floating">
+            <!-- px-1 es el padding que empuja el contenido de placeholder -->
+            <input type="text" class="form-control px-3" placeholder="Dirección" name="direccion"  id="direccion">
+            <label for="direccion" class="form-label px-4">Dirección</label>
+        </div>
+    </div>  
+
+<!-- fila de domicilio detalle -->
+    <div class="row mt-5">  
+        <div class="col-xs-12 col-sm-5 col-md-6 col-xxl-4">
+            <label for="ciudad" class="form-label ">Ciudad</label>
+            <input type="text" class="form-control" name="ciudad"  id="ciudad">
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-3 col-xxl-4">
+            <label for="provincia" class="form-label">Provincia</label>
+            <select type="text" class="form-control form-select" name="provincia"  id="provincia">
+                <option value="">San José</option>
+                <option value="">Cartago</option>
+                <option value="">Alajuela</option>
+                <option value="">Heredia</option>
+                <option value="">Guanacaste</option>
+                <option value="">Puntarenas</option>
+                <option value="">Limón</option>
+            </select>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-md-3 col-xxl-4">
+            <label for="codpst" class="form-label">Código Postal</label>
+            <input type="text" class="form-control" name="codpst"  id="codpst">
+        </div>
+    </div>  
+
+
+
+<!-- fila del textarea  -->
+    <div class="row mt-5">
+        <div class="col-xs-12">
+            <label for="comment">Deje aquí su comentario</label>
+            <textarea name="" id="" cols="30" rows="10" class="form-control " name="comment"  id="comment"></textarea>
+        </div>
+    </div>  
+
+
+
+    <!-- <div class="row mt-1"> -->
+        <div class="form-check mt-5">
+            <input type="checkbox" class="form-check-input" name="aceptar"  id="aceptar">
+            <label for="aceptar" class="form-check-label">Acepta los términos y condiciones</label>
+        </div>
+    <!-- </div> -->
+
+<!-- fila del botón -->
+
+    
+    <button type="submit" class="btn btn-sm-3 btn-primary mt-2 mb-5" name="enviar"  id="enviar"> Confirmar </button>
+   
+    <hr class="mt-5">
+
+    </form>
+</div>
+
+
+
+
+
+<!-- boton de refresh trabaja con refresh.css no borrar -->
+    <div class="container">
+        <a id="refresh" value="Refresh" onClick="history.go()">
+            <svg class="refreshicon"   version="1.1" id="Capa_1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="25px" height="25px" viewBox="0 0 322.447 322.447" style="enable-background:new 0 0 322.447 322.447;"
+                xml:space="preserve">
+                <path  d="M321.832,230.327c-2.133-6.565-9.184-10.154-15.75-8.025l-16.254,5.281C299.785,206.991,305,184.347,305,161.224
+                c0-84.089-68.41-152.5-152.5-152.5C68.411,8.724,0,77.135,0,161.224s68.411,152.5,152.5,152.5c6.903,0,12.5-5.597,12.5-12.5
+                c0-6.902-5.597-12.5-12.5-12.5c-70.304,0-127.5-57.195-127.5-127.5c0-70.304,57.196-127.5,127.5-127.5
+                c70.305,0,127.5,57.196,127.5,127.5c0,19.372-4.371,38.337-12.723,55.568l-5.553-17.096c-2.133-6.564-9.186-10.156-15.75-8.025
+                c-6.566,2.134-10.16,9.186-8.027,15.751l14.74,45.368c1.715,5.283,6.615,8.642,11.885,8.642c1.279,0,2.582-0.198,3.865-0.614
+                l45.369-14.738C320.371,243.946,323.965,236.895,321.832,230.327z"/>
+            </svg>
+          </a>
+    </div>
+<!-- boton de refresh trabaja con refresh.css no borrar final de script -->
+
+<!-- js scripts no borrar     -->
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    
+  
+    <!--Scroll arriba -->
+    <a href="#0" class="cd-top">Top</a>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--Fin scroll arriba -->
+
+    <!-- script Reloj & script animate.js  -->
+    <script src="js/reloj.js"></script>
+    <script src="js/Animate.js"></script>
+    <script src="js/Animate.js"></script>
+    <script src="js/show_pass.js"></script>
+    <script src="js/hide_pass.js"></script>
+    <script src="js/all.js"></script>
+
+    <script src="js/abc.js"></script> 
+<!-- js scripts no borrar fin -->
+ 
+
+    </body>
+</html>

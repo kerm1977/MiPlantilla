@@ -1,0 +1,30 @@
+FLEXBOX 
+
+
+Flexbox es unidireccional y tiene dos ejes. El principal llamado:
+MAIN AXIS ->  	X
+CROSS AXIS |	Y
+
+Caja flexible que se comporta como en bloque, el tamaño de la caja se determina a partir del contenido, entre más borde, padding, margin, esta misma aumenta. PERO box-sizing: border-box, hace que todos los elementos se restrinjan desde el borde, osea contrario a no usarlo que es determinado por el contenido.
+
+.container{
+	display: flex; /*inline-flex*/  Caja se acomoda en bloque horizontal
+	flex-direction: row; /*row-reverse*/ Invierte al otro extremo todo el 
+						 contenido como un espejo algo similar a  123 --> 321
+
+	flex-direction: column; /*Ordena en columna al igual se invierte con 
+						    column-reverse*/ OJO se usa row o column no ambas
+
+	flex-wrap: nowrap; 	/*No envuelve y wrap si envuelve*/ nowrap se alinea en una sola línea sin importar la cantidad de elementos que hayan creado, una barra de scroll horizontal. Sirve en columnas y filas
+
+	justify-content: flex-start;  /*Alinea los elementos dentro de una caja 
+								  flexible. Los elementos son flex-start | center | flex-end | space-between | space-aroun | space-evenly */
+
+
+
+
+
+
+}
+
+

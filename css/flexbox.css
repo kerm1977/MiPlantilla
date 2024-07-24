@@ -1,0 +1,13 @@
+.nav-flbx{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: purple;
+}
+	
+.nav-flbx a{
+	color: white;
+	margin: 20px;
+	background-color: red;
+	padding: 20px;
+	background-color: salmon;
+}

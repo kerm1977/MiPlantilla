@@ -1,0 +1,28 @@
+SINTAXIS BOOTSTRAP 5
+-----------------------
+|TIPOS DE CONTENDORES:|
+-----------------------
+
+Las columnas deben estar incluidas dentro de un row para que funcionen mejor.
+
+container .............. Con espacio centrando el contenido
+container-xs .............. centra el contenido con tamaño determinado (xs,xs,sm,md,lg,xl,xxl) 
+ 	xs: 0,
+  	sm: 576px,
+  	md: 768px,
+  	lg: 992px,
+ 	xl: 1200px,
+  	xxl: 1400px
+
+container-fluid .............. Con algo de margen a los lados
+
+col ......... permite dividir las 12 columnas  que hay dentro de un row 4,4,4 o 3,3,3,3 o 2,2,2,2,2,2 según el tamaño de 				la columna 1 rige sobre las demás.
+
+col-auto ......... El ancho del elemento es igual a la del contenido y ajusta la columna al contenido.
+
+col-numero ......... El ancho de la columna es igual al número que le pase. Si la siguiente columna excede brinca de 						 espacio pero lo importante es que este tamaño respeta en cualquier tipo de pantalla sea xs o xxl 						 siguie abarcado su tamaño col-4 + col-3 = 7 y 5 quedan en blanco o sin espacio.
+
+col-xs-6 ......... Este tipo de estructura es la más utilizada por bootstrap ya que indica el tamaño que debe utilizar y 					cuantas columnas deben abarcar
+
+
+w-100 ...... permite crear saltos entre columnas sin importar el tamaño del grid.

@@ -1,0 +1,28 @@
+/* SINTAXIS DE IMPORTACION
+@import url(''); */
+
+@import url('Animate.css');
+@import url('refresh.css');
+@import url('all.css');
+
+/*Estilos del botón para subir*/
+@import url('btntop.css');
+
+/*Estilos de fuentes de icoomon*/
+@import url('style.css');
+
+/*Estilos Bootstrap*/
+/*@import url('bootstrap.css');*/
+
+/*Estilos del botón accesibilidad*/
+@import url('micss.css');
+
+/*Fuente Principal del sitio*/
+/*Para que la fuente tiene que tener el formato .ttf dentro de la carpeta fonts
+ y para que funcione hay que declarar la ruta en src y llamarlo desde cualquier
+ otra hoja de estilos por medio de font-family y el nombre de la misma*/
+@font-face {
+  font-family: "OpenSans-Light.ttf";
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+

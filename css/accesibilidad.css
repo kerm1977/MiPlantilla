@@ -1,0 +1,85 @@
+.accesibilidad{
+	background: white;
+	position: fixed;
+	margin-right:-180px;
+	top:200px;
+	z-index: 2000;
+	justify-content: flex-end;
+ 	display: flex;
+ 	right: 0;
+ 	opacity: 0.5;
+ 	transition:all 0.6s ease-in; /*Entrada de hover del icono accesibilidad*/
+ 	box-shadow: 0px 1px 5px 0px #727272;
+ 	font-size: 18px;
+
+ }
+
+.acces_btn{
+	background-color: #369;
+	margin-right: 181px;
+	border-radius: 2px 0px 0px 2px;
+	padding: 10px 15px 10px 15px;
+  	box-shadow: 0px 1px 5px 0px #727272;
+}
+
+.acces_btn:hover{
+	right: 200px;
+	position: sticky;
+	cursor:pointer;
+	opacity: 1;
+}
+
+.accesibilidad:hover{
+	margin-right: 1px;
+	transition:all 0.6s ease-out; /*Salida de hover del icono accesibilidad*/
+	opacity: 1;
+	/*filter: blur(6px);*/
+}
+
+.acces_btn a{
+	text-decoration: none;
+	color: #ffa2cc;
+	font-size: 20px;
+}
+
+.acces_btn a:hover{
+	text-decoration: none;
+	color: #ff6675;
+}
+
+.acces_contenido{
+	width: 181px;
+	padding: 5px;
+	position: fixed;
+	background: white;
+	opacity: 1;
+	border:  1px solid #646464;
+}
+
+/*TITULO DEL MEMU DE ACCESIBILIDAD*/
+.accesibilidad h5{
+	text-align: center;
+	}
+
+/*DECORACION DE LOS ENLACES*/
+.enlaces li{
+	color: white;
+	list-style: none;
+	margin-left: 10px;
+}
+
+/*TEXTO DEL MENU DE ACCESIBILIDAD*/
+.enlaces li a{
+	text-decoration: none;
+	color: 	#ff6675;
+	font-size: 18px;
+	line-height : 35px;
+}
+
+.enlaces li a:hover{
+	text-decoration: none;
+	color: black;
+	transition:all 0.3s ease;
+	font-size: 17px;
+	padding: 2px;
+}

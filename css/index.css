@@ -1,0 +1,50 @@
+
+:root{
+	/*--fondo-color:grey;
+	--fuente-color: white; 
+	--fuente-tamano: 15px;*/
+	--ancho-col-flex: 280px;
+	--margen-col-flex: 20px;
+	--padding-col-flex: 5px;
+	--fuente-principal: "OpenSans-Light.ttf"; /*Fuente declarada en main.css*/
+}
+
+.section{
+	display: flex;
+	justify-content: space-between;
+	margin: 2px;
+	flex-wrap: wrap;
+}
+
+/*.col-flex-1{
+	background-color: #930000;
+	width: var(--ancho-col-flex);
+	color: white;
+	order:3;
+	padding: var(--padding-col-flex);
+	margin: var(--margen-col-flex);
+	font-family: var(--fuente-principal); /*Variable declarada en root 
+}*/
+
+/*@media screen and (max-width: 1283px) {
+	 .col-flex-1{
+		background-color: #930000;
+		width: var(--ancho-col-flex);
+		color: white;
+		order:3;
+		padding: var(--padding-col-flex);
+		flex-grow: 1; /*Permite que en mediaquery se ajuste al 100% del contenedor padres cuando salta de linea
+	}*/
+
+.options-menu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background: green;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
