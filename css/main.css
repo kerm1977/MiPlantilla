@@ -1,7 +1,13 @@
 /* SINTAXIS DE IMPORTACION
 @import url(''); */
 
+/*CSS MINIFIER*/
+/*Minimizar CSS que no se van a modificar
+https://www.toptal.com/developers/cssminifier*/
+
+
 @import url('Animate.css');
+@import url('normalize.css');
 @import url('refresh.css');
 @import url('all.css');
 
@@ -15,14 +21,11 @@
 /*@import url('bootstrap.css');*/
 
 /*Estilos del botón accesibilidad*/
-@import url('micss.css');
+@import url('mystyle.css');
 
 /*Fuente Principal del sitio*/
 /*Para que la fuente tiene que tener el formato .ttf dentro de la carpeta fonts
  y para que funcione hay que declarar la ruta en src y llamarlo desde cualquier
  otra hoja de estilos por medio de font-family y el nombre de la misma*/
-@font-face {
-  font-family: "OpenSans-Light.ttf";
-  src: url("../fonts/OpenSans-Light.ttf");
-}
+
 

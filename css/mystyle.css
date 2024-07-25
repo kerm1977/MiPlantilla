@@ -1,0 +1,26 @@
+/* lexend-deca-regular - latin */
+@font-face {
+  font-family: 'Lexend Deca';
+  font-weight: normal;
+  font-style: normal;.
+  src: url('../fonts/lexenddeca.woff2') format('woff2')!important; /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+*{
+	font-family: 'Lexend Deca';
+  	font-size: 18px;
+  	font-weight: normal;
+  	font-style: normal;
+  	color: #5e5e5e;
+  	line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+	
