@@ -24,6 +24,20 @@ ETIQUETAS DE FORMATEO*************************
 Preferiblemente usar CSS en vez de etiquetas de formateo
 **********************************************
 
+Etiquetas Meta:
+	<meta charset="utf-8"> = Permite mostrar tildes y caracteres especiales en general
+	<meta name="author" content="Kenneth Ruiz"> = Coloca el nombre del autor
+    <meta name="Lenguajes" content="html, css3, js"> 7
+    <meta name="keywords" content="Palabras claves del contenido del sitio web">
+    <meta name="description" content="descripción máxima de 170 caracteres">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	width=device-width: El ancho de la pagina sea igual a la del dispositivo
+    	user-scalable=no: No se puede escalar el sitio web
+    	initial-scale=1.0: Pagina tendra un tamaño inicial de 1
+    	maximun-scale=1.0: pagina tendrá un máximo de 1
+    	minimun-scale=1.0: pagina tendrá un minimo de 1
+
 b = Negrita
 strong 		= Negrita con valor semántico
 
@@ -47,11 +61,40 @@ table		= Crear tabla
 tr 			= Table Row -- Filas
 td 			= Table Data -- Datos en columnas
 
+form 		= <form action="" method=""> para crear formularios
+input		= <input type="text" placeholder="Nombre" maxlength="10" size="45" required>
+
+			  <input type="text" placeholder="desabilitado" maxlength="10" size="45" disabled>
+
+			  <input type="email" placeholder="Correo" maxlength="50" size="45" required>
+
+			  <input type="radio" name="genero" value="hombre" id="hombre">HOMBRE  
+			  <input type="radio" name="genero" value="mujer" id="mujer">MUJER
+
+			  <input type="checkbox" name="terminos" id="terminos" for="terminos"> Terminos y Condiciones
+
+			  <input type="password" placeholder="contraseña" name="terminos" id="terminos" for="terminos"> Terminos y Condiciones
+
+			  <input type="submit" value="enviar" >
+
+			  Existen otros inputs con type: 
+			  -color con name="color"
+			  -text con name="text", 
+			  -number con atributos como min="x" y max="z" name="number"
+			  -range con atributo min="x" y max="z" y name="range"
+			  -url con name="url"
 
 
+textarea	= <textarea placeholder="" name="" id="" col="mejorenCSS" row="mejorenCSS"></textarea>
+select		= 	<select name="pais" id="pais">
+					<option value="CR">Costa Rica</option>
+					<option value="ES">España</option>
+					<option value="US">ESTADOS UNIDOS</option>
+				</select>
 
-
-
+label		= <label for="">Nombre del select o input</label>
+blockquote	= citas. Dejan un margen a la derecha 
+cite 		= citar colocando un estilo tipo italica al texto	
 
 
 
