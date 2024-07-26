@@ -3,18 +3,29 @@
   font-family: 'Lexend Deca';
   font-weight: normal;
   font-style: normal;.
-  src: url('../fonts/lexenddeca.woff2') format('woff2')!important; /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
+  src: url('../fonts/lexenddeca.woff2') format('woff2')!important; 
+}/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 
 
 *{
 	font-family: 'Lexend Deca';
-  	font-size: 18px;
-  	font-weight: normal;
-  	font-style: normal;
-  	color: #5e5e5e;
-  	line-height: 1.6;
+	font-size: 18px;
+	font-weight: normal; /*bold, inherit, revert, revert-layer, lighter, 100 a 900*/
+	font-style: normal; /*italic;  oblique; oblique 10deg;*/
+	color: #5e5e5e;
+	line-height: 1.6;
+	text-align: justify;
 }
+
+p,h1,h2,h3,h4,h5,h6,hr{
+	margin: 20px;
+}
+
+th{
+  font-weight: bold;
+}
+
+
 
 
 

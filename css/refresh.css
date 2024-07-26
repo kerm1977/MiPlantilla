@@ -3,8 +3,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
-
 }
+
+
 #refresh{
     position: fixed;
     bottom: 20px;

@@ -1,16 +1,51 @@
 Curso de HTML
 
-Etiquetas y recursos*****************
+Etiquetas y recursos
 
-RECURSOS#####################################
----------------------------------------------
+*********************************************
+RECURSOS*************************************
+*********************************************
 
 https://colorhunt.co/
 https://www.toptal.com/developers/cssminifier
 
----------------------------------------------
-#############################################
+*********************************************
 
+
+h1 a h6 	= Titulares
+p 			= parrafos
+<br />		= Salto de línea
+head 		= Contiene los metatags, script y src de la web enlaces y fuentes
+body		= Encierra todo el contenido de la página
+
+
+**********************************************
+ETIQUETAS DE FORMATEO*************************
+Preferiblemente usar CSS en vez de etiquetas de formateo
+**********************************************
+
+b = Negrita
+strong 		= Negrita con valor semántico
+
+i 			= Italica es similar a enfasis sin valor semántico
+em 			= Enfasis con valor semantico 
+
+small		= texto Pequeño
+mark		= Texto marcado en amarillo
+del 		= Etiqueta tachada
+ins 		= Texto nuevo insertado
+sub			= Subscript pequeño abajo
+sup 		= Supscript pequeño arriba
+a href=""	= Enlaces
+
+ul 			= unOrdened List -- lista desordenada (Viñetas)
+ol 			= Ordened List -- lista ordenada (numeros)
+li 			= List Item	-- representa una elemento de la lista
+img	= <img src="ruta image y formato" width="200" alt="descripción" title="texto al pasar mouse por encima"/>
+
+table		= Crear tabla
+tr 			= Table Row -- Filas
+td 			= Table Data -- Datos en columnas
 
 
 
