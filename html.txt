@@ -8,6 +8,10 @@ RECURSOS*************************************
 
 https://colorhunt.co/
 https://www.toptal.com/developers/cssminifier
+https://kevinmaclane.bandcamp.com/    	#musica sin derechos de autor
+https://caniuse.com/?search=audio 		#Revisar compatibilidad de etiquetas HTML en navegadores
+https://www.favicon-generator.org/		#Generador de Imagenes iconos
+
 
 *********************************************
 
@@ -32,13 +36,13 @@ Etiquetas Meta:
     <meta name="description" content="descripción máxima de 170 caracteres">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    	width=device-width: El ancho de la pagina sea igual a la del dispositivo
-    	user-scalable=no: No se puede escalar el sitio web
-    	initial-scale=1.0: Pagina tendra un tamaño inicial de 1
-    	maximun-scale=1.0: pagina tendrá un máximo de 1
-    	minimun-scale=1.0: pagina tendrá un minimo de 1
+    	# width=device-width: 	#El ancho de la pagina sea igual a la del dispositivo
+    	# user-scalable=no: 	#No se puede escalar el sitio web
+    	# initial-scale=1.0: 	#Pagina tendra un tamaño inicial de 1
+    	# maximun-scale=1.0: 	#pagina tendrá un máximo de 1
+    	# minimun-scale=1.0: 	#pagina tendrá un minimo de 1
 
-b = Negrita
+b 			= Negrita
 strong 		= Negrita con valor semántico
 
 i 			= Italica es similar a enfasis sin valor semántico
@@ -62,6 +66,7 @@ tr 			= Table Row -- Filas
 td 			= Table Data -- Datos en columnas
 
 form 		= <form action="" method=""> para crear formularios
+
 input		= <input type="text" placeholder="Nombre" maxlength="10" size="45" required>
 
 			  <input type="text" placeholder="desabilitado" maxlength="10" size="45" disabled>
@@ -96,6 +101,49 @@ label		= <label for="">Nombre del select o input</label>
 blockquote	= citas. Dejan un margen a la derecha 
 cite 		= citar colocando un estilo tipo italica al texto	
 
+id 			= Trabaja con JS y es un identificador único y es para acceder al DOM del documento
+class		= Trabaja directamente con CSS y una clase si se puede repetir constantente
+
+audio		= <audio src="carpeta/cancion.formato" controls></audio>   #mp3, ogg, wav
+			  
+			  #Otra forma es esta sintaxis
+			  <audio controls> 
+			    	<source src="carpeta/cancion.formato" type="mp3">
+			  </audio>   #mp3, ogg, wav
+
+video		= <video src="carpeta/video.formato" width="800"></video>
+				
+			  #Otra forma de agregar videos es esta sintaxis
+			  <video controls width="800"> 
+					<source src="carpeta/video.formato" type="mp4">
+			  </video>   #mp4 #WebM #ogg
+
+
+svg			= <img src="carpeta/imagen.formato" width="800" alt="">
+			#svg, png, jpg
+
+
+ETIQUETAS DE MAQUETADO
+---------------------------------------------
+#############################################.
+Los siguientes elementos son Semánticos y valen más que un div dentro del navegador
+
+div 		= Sirve de contenedor general
+header		= Sirve para encabezado de cada sección o navbar
+nav 		= Sirve para crear una navegación
+section 	= Secciones para incluir uno o muchos articulos
+article		= Es el contenedor que contiene la info h2, p, img, vid, audio..etc
+aside		= Para crear contenido lateral
+footer		= Es el pie de página
+
+iframe		= Agrega un página dentro de otra la sintaxis:
+				<iframe src="www.latribu.cr" frameborder="0" width="500" height="500"></iframe>
+				sirve para incrustar videos de Youtube u otras plataformas  
+
+span		= Sirve para formatear contenido a través de clases y es en línea contrario al div
+script 		= Permite agregar código JS. Sirve dentro del body(abajo) o del head
+noscript 	= Desactiva el contenido JS
+icono 		= <link rel=stylesheet type="carpeta/imagen" href="carpeta/imagen.ico">
 
 
 
